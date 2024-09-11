@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz - Pergunta 1</title>
+    <link rel="import" href="pergunta2.html">
+</head>
+<style>
+    body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    div{
+        display: flex;
+        align-items: center;
+    }
+    form{
+        margin: 2px;
+    }
+</style>
+<body>
+    <h1>Quiz - Pergunta 1</h1>
+    <p>1. Qual das três é uma linguagem de marcação?</p>
+    <div class="conteiner">
+        <form action="pergunta2.html" method="get">
+            <button type="submit">HTML</button>
+        </form>
+        <form action="errado.html">
+            <button type="submit">PYTHON</button>
+        </form>
+        <form action="errado.html">
+            <button type="submit">JAVASCRIPT</button>
+        </form> 
+    </div>
+</body>
+</html>
